@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh‑CN">
+<head>
+<meta charset="UTF‑8">
+<meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+<title>个人摄影作品集｜人像约稿</title>
+<style>
+*{margin:0;padding:0;box‑sizing:border‑box;}
+body{
+  background:#111;
+  color:#eee;
+  font‑family:system‑ui,‑apple‑system,sans‑serif;
+  line‑height:1.6;
+}
+
+/* 关键：把整块内容盒子，对齐到页面右侧 */
+.right‑box{
+  max‑width:420px;    /* 右侧内容盒子总宽度 */
+  margin‑left:auto;   /* 核心！左margin自动，整块盒子死死贴向右边，左边全部留白 */
+  padding:60px 16px 60px 12px;
+}
+
+header{margin‑bottom:60px;}
+h1{font‑size:2rem;margin‑bottom:12px;}
+.desc{color:#aaa;margin:0 0 24px 0;}
+.contact{color:#88b9ff;font‑size:1rem;}
+
+.category{margin‑bottom:60px;}
+.category h2{font‑size:1.4rem;margin‑bottom:20px;border‑left:4px solid #4488dd;padding‑left:12px;}
+
+.img‑grid{display:grid;grid‑template‑columns:repeat(auto‑fill,minmax(180px,1fr));gap:14px;}
+.pic{border‑radius:8px;overflow:hidden;background:#222;}
+.pic img{width:100%;height:230px;object‑fit:cover;display:block;}
+
+footer{text‑align:left;padding:40px 0 0 0;color:#777;font‑size:0.9rem;}
+</style>
+</head>
+<body>
+<div class="right‑box">
+    <header>
+      <h1>你的名字｜摄影作品集</h1>
+      <p class="desc">承接人像约稿、实拍创作，欢迎咨询。</p >
+      <p class="contact">微信：你的微信号</p >
+    </header>
+
+    <section class="category">
+      <h2>外景人像</h2>
+      <div class="img‑grid">
+        <div class="pic">< img src="./out‑01.jpg" alt="外景"></div>
+        <div class="pic">< img src="./out‑02.jpg" alt="外景"></div>
+        <div class="pic">< img src="./out‑03.jpg" alt="外景"></div>
+        <div class="pic">< img src="./out‑04.jpg" alt="外景"></div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>夜景人像</h2>
+      <div class="img‑grid">
+        <div class="pic">< img src="./night‑01.jpg" alt="夜景"></div>
+        <div class="pic">< img src="./night‑02.jpg" alt="夜景"></div>
+        <div class="pic">< img src="./night‑03.jpg" alt="夜景"></div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>室内棚拍</h2>
+      <div class="img‑grid">
+        <div class="pic">< img src="./studio‑01.jpg" alt="棚拍"></div>
+        <div class="pic">< img src="./studio‑02.jpg" alt="棚拍"></div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>古风创作</h2>
+      <div class="img‑grid">
+        <div class="pic">< img src="./ancient‑01.jpg" alt="古风"></div>
+        <div class="pic">< img src="./ancient‑02.jpg" alt="古风"></div>
+        <div class="pic">< img src="./ancient‑03.jpg" alt="古风"></div>
+      </div>
+    </section>
+
+    <footer>
+© 2026 你的名字｜个人摄影作品集
+    </footer>
+</div>
+</body>
+</html>
